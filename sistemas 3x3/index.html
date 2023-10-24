@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo|Arimo|Bitter|EB+Garamond|Lato|Libre+Baskerville|Libre+Franklin|Lora|Google+Sans:regular,medium|Material+Icons|Google+Symbols|Merriweather|Montserrat|Mukta|Muli|Nunito|Open+Sans:400,600,700|Open+Sans+Condensed:300,400,600,700|Oswald|Playfair+Display|Poppins|Raleway|Roboto|Roboto+Condensed|Roboto+Slab|Slabo+27px|Source+Sans+Pro|Ubuntu|Volkhov&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" href="/img/raiz-cuadrada.png" type="image/x-icon">
+    <script type="text/javascript" async="" src="https://cdn.insticator.com/files/instibid/fallback/InstBid.js"></script>
+    <title>Método Gauss-Jordan</title>
+</head>
+<body>
+  <a href="/index.html" class="boton-inicio">Volver al Inicio</a>
+  <div class="contenedor">
+    <h1>Sistemas por Eliminación de Gauss-Jordan</h1>
+
+    <label for="incognitas">Ingrese el número de incógnitas:</label>
+    <input type="number" id="incognitas" min="1">
+    <button onclick="iniciarResolucion()" class="enviar">Enviar</button>
+    
+    <div id="camposEntrada"></div>
+    <button onclick="resolverSistema()" class="Result">Resolver</button>
+    
+    <div id="resultados"></div>
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>

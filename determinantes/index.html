@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Determinantes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.7.1/math.min.js"></script>
+    <link rel="icon" href="/img/raiz-cuadrada.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Determinantes</h1>
+
+        <label for="matrixSize">Seleccionar dimensión:</label>
+        <select id="matrixSize">
+            <option value="2">2x2</option>
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+        </select>
+    
+        <button onclick="createMatrix()">Crear Matriz</button>
+    
+        <div id="matrixDiv"></div>
+        <br><br>
+    
+        <div id="resultDiv"></div>
+    
+    </div>
+    <script src="det.js"></script>
+</body>
+</html>

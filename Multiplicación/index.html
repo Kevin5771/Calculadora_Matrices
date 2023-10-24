@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.lvgl.io/v8.0.2/lv.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/raiz-cuadrada.png" type="image/x-icon">
+    <title>Calculadora de Matrices</title>
+</head>
+<body>
+    <a href="/index.html" class="boton-inicio">Volver al Inicio</a>
+    <div id="content">
+        <div>
+            <label for="matrixDimension">Elija la dimensión de la matriz:</label>
+            <select id="matrixDimension">
+                <option value="2x2">2x2</option>
+                <option value="3x3">3x3</option>
+                <option value="4x4">4x4</option>
+            </select>
+        </div>
+
+        <div id="matrixInputValues" style="display: none;">
+            <h2>Ingrese los datos de las matrices:</h2>
+            <h3>Matriz A</h3>
+
+            <div id="matrixInputsA">
+                <!-- Aquí se genera la tabla de inputs de la matriz A-->
+            </div>
+                <br>
+            <h3>Matriz B</h3>
+            <div id="matrixInputsB">
+                <!-- Aquí se genera la tabla de inputs de la matriz B -->
+            </div> 
+        </div>
+
+        <div id="matricesContainer">
+            <!-- Aquí se mostrará la tabla de resultados -->
+        </div>
+
+        <div id="sidebar">
+            <button id="btnMultiplicacionMatrices">Multiplicación de Matrices</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

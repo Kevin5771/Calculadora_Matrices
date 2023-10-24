@@ -1,0 +1,41 @@
+
+
+Este código JavaScript crea una calculadora de matrices que permite al usuario ingresar matrices y realizar la multiplicación de 
+matrices. A continuación, se explica cada parte del código:
+
+Definición de Variables:
+
+Se definen variables para capturar elementos HTML por su ID. Estos elementos son:
+matricesContainer: Un contenedor donde se mostrarán los resultados.
+matrixDimensionSelect: Un menú desplegable para seleccionar la dimensión de las matrices.
+matrixInputValues: Un contenedor para mostrar las entradas de las matrices.
+matrixInputsA y matrixInputsB: Contenedores para las tablas de entrada de datos de las matrices A y B.
+btnMultiplicacionMatrices: Un botón para realizar la multiplicación de matrices.
+Agrega Escuchadores de Eventos:
+
+Se agrega un escuchador de eventos al botón btnMultiplicacionMatrices para mostrar las entradas de las matrices cuando se hace clic.
+Función para Crear la Tabla de Ingreso de Datos:
+
+Cuando el usuario selecciona una dimensión de matriz, esta función se activa.
+Se lee la dimensión seleccionada y se generan tablas de entrada de datos para las matrices A y B.
+Las tablas se generan en los contenedores matrixInputsA y matrixInputsB.
+Función para Leer una Matriz desde una Tabla HTML:
+
+Esta función se utiliza para leer las matrices ingresadas por el usuario desde las tablas HTML.
+Recorre las filas y celdas de la tabla y extrae los valores de entrada, construyendo una matriz.
+Función para Multiplicar Matrices:
+
+Esta función recibe dos matrices, A y B, y realiza la multiplicación de matrices.
+Verifica si las dimensiones son compatibles para la multiplicación (el número de columnas de A es igual al número de filas de B).
+Realiza la multiplicación y devuelve la matriz resultante.
+Función para Generar una Tabla HTML desde una Matriz:
+
+Esta función toma una matriz y la convierte en una tabla HTML.
+Crea elementos table, tr, td, y establece los valores de las celdas.
+Agrega otro Escuchador de Eventos al Botón btnMultiplicacionMatrices:
+
+Este escuchador se activa cuando el usuario hace clic en el botón "Multiplicación de Matrices".
+Lee las matrices ingresadas desde las tablas, multiplica las matrices y muestra el resultado en el contenedor matricesContainer.
+El código está diseñado para ser una calculadora de multiplicación de matrices en la que el usuario puede seleccionar la dimensión de 
+las matrices y luego ingresar valores para las matrices A y B. Luego, la calculadora realiza la multiplicación y muestra el resultado en 
+una tabla HTML. Si las dimensiones no son compatibles, se muestra un mensaje de error.

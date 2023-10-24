@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("/img/pexels-monstera-production-6238297.jpg");
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+}
+
+.container {
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 1, 2, 0.9);
+    max-width: 1200px;
+}
+
+/* Contenedor principal */
+#content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 1, 2, 0.9);
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Títulos y etiquetas */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Select y botón */
+#matrixSize, button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#matrixSize {
+    width: 100%;
+}
+
+/* Tablas y resultados */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para ocultar/mostrar la entrada de datos */
+.matrixInput {
+    display: none;
+    margin-top: 10px;
+}
+
+.matrixInput input {
+    width: 50px; /* Ajusta el ancho según sea necesario */
+}
+
+#matrixDiv.active .matrixInput {
+    display: flex;
+}
+
+
+

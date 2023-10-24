@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/img/pexels-monstera-production-6238297.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.contenedor{
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 1, 2, 0.9);
+    max-width: 1200px;
+}
+
+/* Contenedor principal */
+#content {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 1, 2, 0.9);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#incognitas, #btnIniciarResolucion, #btnResolverSistema {
+    justify-content: center;
+    align-items: center; 
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+.enviar, .Result{
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* Resultados */
+#resultados {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.boton-inicio {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #29323c;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #1d252d;
+}
