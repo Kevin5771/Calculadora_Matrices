@@ -6,7 +6,7 @@ const matrixInputsA = document.getElementById("matrixInputsA");
 const matrixInputsB = document.getElementById("matrixInputsB");
 const btnMultiplicacionMatrices = document.getElementById("btnMultiplicacionMatrices");
 
-// Agrega escuchadores de eventos a los botones
+
 btnMultiplicacionMatrices.addEventListener("click", function () {
     matrixInputValues.style.display = "block";
 });
@@ -76,7 +76,7 @@ function multiplicarMatrices(matrixA, matrixB) {
     }
     return resultMatrix;
 }
-// Agrega escuchadores de eventos a los botones
+
 btnMultiplicacionMatrices.addEventListener("click", function () {
     const tableA = document.getElementById("matrixInputsA");
     const tableB = document.getElementById("matrixInputsB");

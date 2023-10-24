@@ -12,6 +12,7 @@ function createMatrix() {
         for (var j = 0; j < matrixSize; j++) {
             var cell = document.createElement("td");
             var input = document.createElement("input");
+            input.placeholder = "[" + i + "][" + j + "]";
             input.type = "number";
             cell.appendChild(input);
             row.appendChild(cell);

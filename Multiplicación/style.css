@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: 'Arial', sans-serif;
     background-image: url("/img/pexels-monstera-production-6238297.jpg");
@@ -21,7 +21,6 @@ body {
     text-align: center;
 }
 
-/* Títulos y etiquetas */
 h1 {
     color: #333;
     font-size: 24px;
@@ -40,7 +39,7 @@ h3 {
     margin: 5px 0;
 }
 
-/* Select y botón */
+
 #matrixDimension, #btnMultiplicacionMatrices {
     background-color: #007bff;
     color: #fff;
@@ -69,12 +68,12 @@ th, td {
     border: 1px solid #ccc;
 }
 
-/* Estilos para la barra lateral */
+
 #sidebar {
     text-align: center;
 }
 
-/* Estilos para ocultar/mostrar la entrada de datos */
+
 #matrixInputValues {
     display: none;
 }
